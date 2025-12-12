@@ -6,7 +6,7 @@
     "dev": "pnpm -C apps/www dev",
     "build": "pnpm -C apps/www build",
     "start": "pnpm -C apps/www start",
-    "db:migrate": "pnpm -C packages/db prisma migrate dev",
-    "db:studio": "pnpm -C packages/db prisma studio"
+    "db:migrate": "pnpm --dir packages/db prisma migrate dev",
+    "db:studio": "pnpm --dir packages/db prisma studio"
   }
 }
