@@ -1,5 +1,5 @@
 <div align="center">
-    <img src=assets/art/logo.png/>
+    <img src=assets/art/logo-200.png/>
 </div>
 
 # OpenBlox - Open source sandbox style platform
