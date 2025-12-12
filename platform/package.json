@@ -1,0 +1,12 @@
+{
+  "name": "platform",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "pnpm -C apps/www dev",
+    "build": "pnpm -C apps/www build",
+    "start": "pnpm -C apps/www start",
+    "db:migrate": "pnpm -C packages/db prisma migrate dev",
+    "db:studio": "pnpm -C packages/db prisma studio"
+  }
+}
